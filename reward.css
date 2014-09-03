@@ -71,7 +71,7 @@ overflow:visible;
  	padding-right:50px;
  	padding-top:15px;
  	padding-bottom:20px;
- 	font-family:"Times New Roman", Times, serif;
+ font-family:"Times New Roman", Times, serif;
 
 }
 .navbar-custom .navbar-nav > li > a:hover,
@@ -88,32 +88,35 @@ background-color:#555555;
 }
 
 /* mobile version */
-.navbar-custom.navbar-toggle {
-    border-color:FFFFFF;
+.navbar-custom .navbar-toggle {
+    border-color:#DDD;
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-    color: #DDD;
+    background-color: #DDD;
 }
 .navbar-custom .navbar-toggle .icon-bar {
     background-color: #CCC;
 }
-.dropdown-menu 
+.navbar-custom .navbar-toggle .ico-clr {
+    background-color: #295D91;
+}
+
+.navbar-custom .dropdown-menu 
 { 
 background-color: #555555;
-font-family:"Times New Roman", Times, serif;
 padding-top:15px;
 padding-bottom:10px;
 padding-left:10px;
 padding-right:10px;
 font-size:18px;
 }
-.dropdown-menu>li>a:hover,
- .dropdown-menu>li>a:focus 
+.navbar-custom .dropdown-menu>li>a:hover,
+.navbar-custom .dropdown-menu>li>a:focus 
  {
   background-color: #666666;
   }
-.dropdown-menu>li>a 
+.navbar-custom .dropdown-menu>li>a 
 { color: #FFFFFF;
 }
 
