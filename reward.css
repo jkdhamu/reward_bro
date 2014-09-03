@@ -71,7 +71,7 @@ overflow:visible;
  	padding-right:50px;
  	padding-top:15px;
  	padding-bottom:20px;
- font-family:"Times New Roman", Times, serif;
+ 
 
 }
 .navbar-custom .navbar-nav > li > a:hover,
@@ -102,7 +102,7 @@ background-color:#555555;
     background-color: #295D91;
 }
 
-.navbar-custom .dropdown-menu 
+.dropdown-menu 
 { 
 background-color: #555555;
 padding-top:15px;
@@ -111,12 +111,12 @@ padding-left:10px;
 padding-right:10px;
 font-size:18px;
 }
-.navbar-custom .dropdown-menu>li>a:hover,
-.navbar-custom .dropdown-menu>li>a:focus 
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus 
  {
   background-color: #666666;
   }
-.navbar-custom .dropdown-menu>li>a 
+.dropdown-menu>li>a 
 { color: #FFFFFF;
 }
 
