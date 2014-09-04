@@ -27,8 +27,14 @@ body
 {
 background-color:#FFFFFF;
 }
-
-
+#fot-clr.container-fluid
+{background-color:#333333;
+}
+.container .fot-menu > p > a:hover
+.container .fot-menu > p > a:focus
+{
+background-color:#FFFFFF;
+}
 
 
 .carousel {
